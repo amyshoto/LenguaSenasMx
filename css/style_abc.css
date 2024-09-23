@@ -1,0 +1,59 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    width: 23%; /* Ajusta el ancho para mostrar cuatro imágenes por fila */
+    margin: 10px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 65%; /* Ajusta el tamaño de la imagen al ancho completo del contenedor */
+    max-width: 100%; /* Establece el ancho máximo de la imagen al 100% */
+    height: auto; /* Permite que la altura de la imagen se ajuste automáticamente proporcionalmente al ancho */
+    display: block; /* Asegura que la imagen sea un elemento de bloque para controlar su ancho */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.gallery-item p {
+    width: 65%; /* Asegura que el texto tenga el mismo ancho que la imagen */
+    box-sizing: border-box; /* Incluye el ancho del borde y el relleno en el ancho total */
+    text-align: justify; /* Alinea el texto al centro */
+    margin: 10px auto; /* Ajusta el margen superior e inferior y centra el texto horizontalmente */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.letras {
+    color: rgb(211, 19, 19);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+/* ORIGINAL */
+
+.container {
+    margin-top: 100px;
+}
+#abc{
+    color: rgb(212, 164, 5);
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}

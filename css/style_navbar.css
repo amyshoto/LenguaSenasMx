@@ -1,0 +1,31 @@
+.navbar {
+    position: fixed;
+    top: 3%; /* Modifica el espacio entre el tope de arriba d la barra */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    z-index: 1;
+    transition: top 0.3s; /* Agrega una transición suave al ocultar y mostrar la barra */
+}
+.navbar a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}
+#inicio {
+    color: #EEFB03;
+}
+#video {
+    color: #000000;
+}
+.button {
+    background-color: #EEFB03;
+    border-radius: 20px;
+    padding: 4px 20px;
+    color: #000000;
+}

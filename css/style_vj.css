@@ -1,0 +1,124 @@
+body {
+    /* background-color: #391E6D; */
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#000000,#3533CD); /* Fondo degradado de izquierda a derecha de morado oscuro a negro */
+    height: 100vh;
+}
+
+.container {
+    position: relative; /* Establece el contenedor como relativo */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Alinea el contenido a la izquierda */
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 15vh;
+}
+
+.container p {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 5vh;
+}
+
+img {
+    height: 25vh;
+}
+
+.cartas {
+    margin-bottom: 50px;
+}
+
+.boton1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin-left: 30vh;
+    margin-right: 30vh;
+}
+
+.btn1 {
+    cursor: pointer;
+    background-color: #FDBD19; 
+    border-radius: 33px;
+    color: black; 
+    border: 3px solid #FDBD19;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    width: 230px;
+    height: 50px;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center; /* Añade esta línea para centrar el texto */
+}
+
+.btn1 span {
+    margin-right: auto;
+}
+
+.continuar {
+    background-color: white;
+    height: 25vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    height: auto;
+}
+
+.btn2 {
+    cursor: pointer;
+    border-radius: 33px;
+    color: white; 
+    background-color: #004AAD;
+    border: 3px solid #004AAD;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+    
+    /* Añade estas líneas para centrar el botón en la pantalla */
+    position: fixed;
+    top: 83.5%;
+    left: 80%;
+    
+}
+
+/* Estilos para el mensaje de confirmación */
+#respuestaMensaje {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 4vh;
+    /* margin-bottom: 10px; */
+    color: #333;
+    text-align: center; /* Alinea el texto al centro */
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+/*

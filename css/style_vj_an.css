@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#000000,#3533CD); /* Fondo degradado de izquierda a derecha de morado oscuro a negro */
+    height: 100vh;
+}
+
+.container {
+    position: relative; /* Establece el contenedor como relativo */
+    text-align: left;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Alinea el contenido a la izquierda */
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 10%;
+}
+
+p {
+    align-items: left;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin-left: 30vh;
+    margin-right: 30vh;
+}
+
+.anuncio p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 12%;
+}
+
+.boton1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    margin-top: 3%;
+}
+
+.btn1 {
+    cursor: pointer;
+    background-color: #D9D9D9; 
+    border-radius: 33px;
+    color: black; 
+    border: 3px solid #D9D9D9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    width: 265px;
+    height: 50px;
+    transition-duration: 0.4s;
+}
+
+.btn1:hover {
+    background-color: #FDBD19;
+    color: black;
+}

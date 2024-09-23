@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#000000,#3533CD); /* Fondo degradado de izquierda a derecha de morado oscuro a negro */
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+
+.container2 {
+    display: grid;
+    grid-template-areas: "section1 section2";
+    grid-template-columns: 1fr 1fr;
+}
+
+.item-1 {
+    grid-area: section1;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.item-2 {
+    grid-area: section2;
+    /* border: 2px solid blue; */
+    display: flex;
+    margin-right: 15%;
+}
+
+.item-1 p {
+    margin-bottom: 30px;
+    margin-top: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.item-2 .download-button {
+    background-image: url('../img/dw4.png'); /* Reemplaza con la ruta correcta a tu imagen personalizada */
+    background-size: contain; /* Ajusta la propiedad según tus necesidades */
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 10px;
+    left: 300px; 
+    width: 50px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: 50px; /* Ajusta la altura de la imagen según tus necesidades */
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.animacion {
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.grafica {
+    /* max-width: 300px; */ /* Ajusta el tamaño máximo de la gráfica según tus necesidades */
+    max-width: 300px;
+    /* margin-top: 200px; */ /* Agrega un margen superior para separarla del menú de navegación */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton1 {
+    height: 10vh;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.btn1 {
+    cursor: pointer;
+    background-color: #FFBD59;
+    border-radius: 33px;
+    color: black;
+    border: solid #FFBD59;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    width: 20%; /* Ajusta el ancho de los botones según sea necesario */
+    height: auto;
+    margin: 0 40px; /* Agrega un margen horizontal para separar los botones */
+}

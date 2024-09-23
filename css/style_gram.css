@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#000000,#3533CD); /* Fondo degradado de izquierda a derecha de morado oscuro a negro */
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 3%; 
+}
+
+.imagen {
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.palabra {
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+img {
+    width: 175px;
+    height: auto;
+    margin-right: 50px; /* Ajusta el margen derecho según tus preferencias */
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+button {
+    cursor: pointer;
+    background-color: #FDBD19;
+    border-radius: 33px;
+    color: black;
+    border: solid #FDBD19;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    width: 150px; /* Ajusta el ancho de los botones según tus preferencias */
+    height: auto;
+    margin-right: 70px; /* Ajusta el margen derecho según tus preferencias */
+    transition: all 0.3s;
+}
+
+#button:hover {
+    background-color: #E7F133;
+    color: grey;
+    opacity: .9;
+    border: 2px solid #fff;
+    transform: scale(1.05);
+}
+
+.matched {
+    opacity: 0.5;
+}
+
+#next-btn {
+    margin-top: 4%;
+    width: 300px;
+}
